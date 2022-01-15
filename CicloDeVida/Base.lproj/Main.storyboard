@@ -43,6 +43,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Tela 1" id="AHE-wu-Jd0"/>
+                    <connections>
+                        <outlet property="label" destination="yVJ-D2-KAm" id="MmC-R0-Oxc"/>
+                        <outlet property="textField" destination="Kbs-U0-Ofs" id="Nw8-bC-A2O"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

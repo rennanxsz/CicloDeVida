@@ -8,11 +8,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var textField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         print("Tela 1: viewDidLoad")
+        label.text = "Entre com seu nome"
         
     }
     
@@ -30,6 +35,7 @@ class ViewController: UIViewController {
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         print("Tela 1: viewWillDisappear")
+        label.text = textField.text 
     }
     
     override func viewDidDisappear(_ animated: Bool) {
