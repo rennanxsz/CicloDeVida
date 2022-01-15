@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0080F3CD2793717D00CE7DE2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0080F3CC2793717D00CE7DE2 /* SecondViewController.swift */; };
 		008A42D9279349A300AD89EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A42D8279349A300AD89EF /* AppDelegate.swift */; };
 		008A42DB279349A300AD89EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A42DA279349A300AD89EF /* SceneDelegate.swift */; };
 		008A42DD279349A300AD89EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A42DC279349A300AD89EF /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0080F3CC2793717D00CE7DE2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		008A42D5279349A300AD89EF /* CicloDeVida.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CicloDeVida.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		008A42D8279349A300AD89EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		008A42DA279349A300AD89EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				008A42DA279349A300AD89EF /* SceneDelegate.swift */,
 				008A42DC279349A300AD89EF /* ViewController.swift */,
 				008A42DE279349A300AD89EF /* Main.storyboard */,
+				0080F3CC2793717D00CE7DE2 /* SecondViewController.swift */,
 				008A42E1279349A300AD89EF /* Assets.xcassets */,
 				008A42E3279349A300AD89EF /* LaunchScreen.storyboard */,
 				008A42E6279349A300AD89EF /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0080F3CD2793717D00CE7DE2 /* SecondViewController.swift in Sources */,
 				008A42DD279349A300AD89EF /* ViewController.swift in Sources */,
 				008A42D9279349A300AD89EF /* AppDelegate.swift in Sources */,
 				008A42DB279349A300AD89EF /* SceneDelegate.swift in Sources */,
